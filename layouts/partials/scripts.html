@@ -132,6 +132,9 @@
 <!-- mermaid.js -->
 <script src="https://cdn.bootcdn.net/ajax/libs/mermaid/8.8.2/mermaid.min.js"></script>
 
+<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+<script src="https://tikzjax.com/v1/tikzjax.js"></script>
+
 <!-- custom js -->
 {{ range .Site.Params.customJS -}}
   <script src="{{ "/js/" | relURL }}{{ . }}"></script>
